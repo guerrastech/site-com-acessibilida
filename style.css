@@ -1,0 +1,24 @@
+body {
+    background-color: bisque;
+  }
+  
+  /* On screens that are 992px or less, set the background color to blue */
+  @media screen and (max-width: 992px) {
+    body {
+      background-color: rgb(101, 101, 228);
+    }
+  }
+  
+  /* On screens that are 600px or less, set the background color to olive */
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: rgb(194, 194, 115);
+    }
+  }
+
+  .containerImg{
+    max-width:500px;
+    max-height:250px;
+    width: auto;
+    height: auto;
+}
